@@ -44,10 +44,12 @@ cd pie_toolbox
 
 2. **Create and activate a virtual environment:**
 
+For Linux/MacOS:
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
+
 For Windows:
 ```bash
 python -m venv venv
