@@ -1,6 +1,6 @@
 # PIE Toolbox (Pattern Identification and Evaluation)
 
-`pie_toolbox` is a Python package designed for processing, analyzing, and classifying voxel data. It offers tools for data preprocessing, feature extraction, pattern identification, and evaluation. The core methods implemented in this package are SSM-PCA (Scaled Subprofile Model of Principal Component Analysis) and SVM (Support Vector Machine).
+PIE toolbox is a Python package designed for processing, analyzing, and classifying voxel data. It offers tools for data preprocessing, feature extraction, pattern identification, and evaluation. The core methods implemented in this package are SSM-PCA (Scaled Subprofile Model of Principal Component Analysis) and SVM (Support Vector Machine).
 
 ***
 
@@ -15,7 +15,7 @@
 ├── log/                       # Folder for log files (created automatically)
 ├── config/                    # JSON files with pipeline configurations
 ├── example_generate_data.py   # Example data generator
-├── example_pipeline           # Pipeline usage example
+├── example_pipeline.py        # Pipeline usage example
 ├── README.md                  # This file
 └── requirements.txt           # List of dependencies
 
@@ -46,7 +46,12 @@ cd pie_toolbox
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+source venv/bin/activate
+```
+For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
 3. **Install dependencies:**
