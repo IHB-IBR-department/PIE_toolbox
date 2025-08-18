@@ -38,7 +38,7 @@ It is recommended to use a virtual environment when working with this project.
 1. **Clone the repository:**
 
 ```bash
-git clone <repository_url>
+git clone git@github.com:IHB-IBR-department/PIE_toolbox.git
 cd pie_toolbox
 ```
 
