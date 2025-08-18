@@ -1,0 +1,47 @@
+{
+  "ssm-pca": {
+    "groups": {
+      "Train": "training/train",
+      "Control": "training/control"
+    },
+    "mask_options": {
+      "threshold_mask": 0.1,
+      "loaded_mask": {
+        "mask_path": "mask.nii",
+        "threshold": 0.5,
+        "is_threshold_relative": true
+      },
+      "atlas_mask": {
+        "atlas_path": "",
+        "regions": []
+      }
+    },
+    "log_transform": true
+  },
+  "select_patterns": {
+    "explained_variance": 0,
+    "cumulative_explained_variance": 0.5,
+    "n_patterns": 100
+  },
+  "plot": {
+    "plot_type": "bar",
+    "figsize": [10, 4],
+    "sorted": false
+  },
+  "atlas": {
+    "threshold": 0.1,
+    "delta": 0.1,
+    "dust": 200,
+    "connectivity": 6
+  },
+  "classification":{
+    "split_type": "LOO",
+    "folds": 5,
+    "validation_groups": {
+      "Train": "validation/train_validation",
+      "Control": "validation/control_validation"
+    }
+  },
+  "input_dir": "example_data",
+  "output_dir": "example_data/results"
+}
