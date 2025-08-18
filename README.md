@@ -1,6 +1,6 @@
 # PIE Toolbox (Pattern Identification and Evaluation)
 
-PIE toolbox is a Python package designed for processing, analyzing, and classifying voxel data. It offers tools for data preprocessing, feature extraction, pattern identification, and evaluation. The core methods implemented in this package are SSM-PCA (Scaled Subprofile Model of Principal Component Analysis) and SVM (Support Vector Machine).
+PIE Toolbox is a Python package designed for processing, analyzing, and classifying voxel data. It offers tools for data preprocessing, feature extraction, pattern identification, and evaluation. The core methods implemented in this package are SSM-PCA (Scaled Subprofile Model of Principal Component Analysis) and SVM (Support Vector Machine).
 
 ***
 
